@@ -1,0 +1,34 @@
+<head>
+  <title>Conversor</title>
+  <style >
+    body{
+      background-color: aqua;
+      font: normal 18pt Arial
+    }
+  </style>
+</head>
+<div>
+  <h1>
+    Conversor de moedas! > Real para dolar
+  </h1>
+  <p>
+    Descubra os valores em Dolar e Euro:
+  </p>
+  <label for="moeda">Insira o valor:</label>
+  <input type="number" id="valordolar" size="2" />
+  <button 
+    type="submit" 
+    onclick="Converter()">Converter Dolar
+</button>
+<br>
+<label for="moeda">Insira o valor:</label>
+<input type="number" id="valoreuro" size="2" />
+  <button 
+    type="submit"
+    onclick="Converter1()">Converter Euro
+</button>
+  <h2 id="valorConvertido"></h2>
+  <h2 id="valorConvertido2"></h2>
+</div>
+
+<script src="app.js"></script>
